@@ -173,3 +173,252 @@ x==========x]
 [2024-12-09 23:09:26,060: INFO: main: >>>>>> stage Data transformation Stage completed <<<<<<
 
 x==========x]
+[2024-12-10 12:27:42,075: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-10 12:27:42,079: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:27:42,082: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:27:42,085: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:27:42,086: INFO: common: created directory at: artifacts]
+[2024-12-10 12:27:42,087: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-10 12:27:42,088: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-10 12:27:42,173: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:27:42,174: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-10 12:27:42,177: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:27:42,179: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:27:42,183: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:27:42,184: INFO: common: created directory at: artifacts]
+[2024-12-10 12:27:42,185: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-10 12:27:42,222: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:27:42,223: INFO: main: >>>>>> stage Data transformation Stage started <<<<<<]
+[2024-12-10 12:27:42,239: INFO: main: >>>>>> stage Data transformation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:33:11,820: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-10 12:33:11,827: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:33:11,830: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:33:11,834: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:33:11,836: INFO: common: created directory at: artifacts]
+[2024-12-10 12:33:11,836: ERROR: stage_04_model_trainer: 'ConfigurationManager' object has no attribute 'get_model_trainer_config']
+Traceback (most recent call last):
+  File "c:/Users/Sudheer/h/src/mlProject/pipeline/stage_04_model_trainer.py", line 23, in <module>
+    obj.main()
+  File "c:/Users/Sudheer/h/src/mlProject/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer_config = config.get_model_trainer_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_model_trainer_config'
+[2024-12-10 12:36:38,218: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-10 12:36:38,222: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:36:38,224: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:36:38,228: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:36:38,228: INFO: common: created directory at: artifacts]
+[2024-12-10 12:36:38,229: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-10 12:36:38,229: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-10 12:36:38,378: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:36:38,379: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-10 12:36:38,384: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:36:38,386: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:36:38,389: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:36:38,390: INFO: common: created directory at: artifacts]
+[2024-12-10 12:36:38,397: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-10 12:36:38,930: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:36:38,931: INFO: main: >>>>>> stage Data transformation Stage started <<<<<<]
+[2024-12-10 12:36:38,934: INFO: main: >>>>>> stage Data transformation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:36:38,934: INFO: main: >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-12-10 12:36:38,942: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:36:38,944: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:36:38,948: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:36:38,949: INFO: common: created directory at: artifacts]
+[2024-12-10 12:36:38,950: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-10 12:36:38,950: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_transformation/train.csv']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    obj.main()
+  File "c:\users\sudheer\h\src\mlProject\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer_config.train()
+  File "c:\users\sudheer\h\src\mlProject\components\model_trainer.py", line 14, in train
+    train_data=pd.read_csv(self.config.train_data_path)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_transformation/train.csv'
+[2024-12-10 12:39:30,432: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-10 12:39:30,436: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:39:30,440: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:39:30,445: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:39:30,446: INFO: common: created directory at: artifacts]
+[2024-12-10 12:39:30,447: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-10 12:39:30,447: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-10 12:39:30,454: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:39:30,455: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-10 12:39:30,459: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:39:30,461: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:39:30,464: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:39:30,465: INFO: common: created directory at: artifacts]
+[2024-12-10 12:39:30,466: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-10 12:39:30,484: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:39:30,485: INFO: main: >>>>>> stage Data transformation Stage started <<<<<<]
+[2024-12-10 12:39:30,488: INFO: main: >>>>>> stage Data transformation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:39:30,489: INFO: main: >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-12-10 12:39:30,494: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:39:30,495: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:39:30,498: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:39:30,499: INFO: common: created directory at: artifacts]
+[2024-12-10 12:39:30,499: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-10 12:39:30,500: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_transformation/train.csv']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    obj.main()
+  File "c:\users\sudheer\h\src\mlProject\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer_config.train()
+  File "c:\users\sudheer\h\src\mlProject\components\model_trainer.py", line 14, in train
+    train_data=pd.read_csv(self.config.train_data_path)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_transformation/train.csv'
+[2024-12-10 12:39:51,911: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-10 12:39:51,916: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:39:51,918: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:39:51,920: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:39:51,921: INFO: common: created directory at: artifacts]
+[2024-12-10 12:39:51,921: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-10 12:39:51,922: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-10 12:39:51,925: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:39:51,926: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-10 12:39:51,930: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:39:51,932: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:39:51,935: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:39:51,936: INFO: common: created directory at: artifacts]
+[2024-12-10 12:39:51,937: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-10 12:39:51,954: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:39:51,955: INFO: main: >>>>>> stage Data transformation Stage started <<<<<<]
+[2024-12-10 12:39:51,958: INFO: main: >>>>>> stage Data transformation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 12:39:51,960: INFO: main: >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-12-10 12:39:51,969: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 12:39:51,971: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 12:39:51,974: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 12:39:51,975: INFO: common: created directory at: artifacts]
+[2024-12-10 12:39:51,975: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-10 12:39:52,027: INFO: main: >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:36:25,640: INFO: stage_05_model_evaluation: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-10 14:36:25,651: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 14:36:25,657: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 14:36:25,663: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 14:36:25,667: INFO: common: created directory at: artifacts]
+[2024-12-10 14:36:25,668: ERROR: stage_05_model_evaluation: 'ConfigurationManager' object has no attribute 'get_model_evaluation_config']
+Traceback (most recent call last):
+  File "c:/Users/Sudheer/h/src/mlProject/pipeline/stage_05_model_evaluation.py", line 22, in <module>
+    obj.main()
+  File "c:/Users/Sudheer/h/src/mlProject/pipeline/stage_05_model_evaluation.py", line 14, in main
+    model_evaluation_config = config.get_model_evaluation_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_model_evaluation_config'
+[2024-12-10 14:41:01,676: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-10 14:41:01,680: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 14:41:01,683: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 14:41:01,686: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 14:41:01,687: INFO: common: created directory at: artifacts]
+[2024-12-10 14:41:01,687: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-10 14:41:01,688: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-10 14:41:01,715: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:41:01,716: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-10 14:41:01,723: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 14:41:01,724: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 14:41:01,727: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 14:41:01,728: INFO: common: created directory at: artifacts]
+[2024-12-10 14:41:01,730: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-10 14:41:01,768: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:41:01,768: INFO: main: >>>>>> stage Data transformation Stage started <<<<<<]
+[2024-12-10 14:41:01,781: INFO: main: >>>>>> stage Data transformation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:41:01,781: INFO: main: >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-12-10 14:41:01,785: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 14:41:01,787: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 14:41:01,789: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 14:41:01,790: INFO: common: created directory at: artifacts]
+[2024-12-10 14:41:01,791: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-10 14:41:01,836: INFO: main: >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:41:22,627: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-10 14:41:22,632: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 14:41:22,634: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 14:41:22,639: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 14:41:22,640: INFO: common: created directory at: artifacts]
+[2024-12-10 14:41:22,641: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-10 14:41:22,641: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-10 14:41:22,645: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:41:22,647: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-10 14:41:22,657: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 14:41:22,659: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 14:41:22,661: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 14:41:22,662: INFO: common: created directory at: artifacts]
+[2024-12-10 14:41:22,663: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-10 14:41:22,678: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:41:22,679: INFO: main: >>>>>> stage Data transformation Stage started <<<<<<]
+[2024-12-10 14:41:22,680: INFO: main: >>>>>> stage Data transformation Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:41:22,681: INFO: main: >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-12-10 14:41:22,688: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 14:41:22,689: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 14:41:22,692: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 14:41:22,693: INFO: common: created directory at: artifacts]
+[2024-12-10 14:41:22,694: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-10 14:41:22,710: INFO: main: >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
+[2024-12-10 14:41:22,711: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-10 14:41:22,716: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-10 14:41:22,718: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-10 14:41:22,722: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-10 14:41:22,722: INFO: common: created directory at: artifacts]
+[2024-12-10 14:41:22,722: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-10 14:41:22,739: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-10 14:41:22,740: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
