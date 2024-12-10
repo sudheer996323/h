@@ -12,3 +12,7 @@ data-validation:
   unzip_dir: C:\Users\Sudheer\h\research\artifacts\data_ingestion\winequality-red.csv
   STATUS_FILE: artifacts/data_validation/status.txt 
 
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/winequality-red.csv
+
