@@ -150,3 +150,26 @@ x==========x]
 [2024-12-09 21:00:58,969: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
 
 x==========x]
+[2024-12-09 23:09:25,829: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-09 23:09:25,879: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 23:09:25,884: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 23:09:25,901: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 23:09:25,902: INFO: common: created directory at: artifacts]
+[2024-12-09 23:09:25,903: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-09 23:09:25,904: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-09 23:09:25,961: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-09 23:09:25,963: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-09 23:09:25,971: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 23:09:25,987: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 23:09:26,000: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 23:09:26,004: INFO: common: created directory at: artifacts]
+[2024-12-09 23:09:26,005: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 23:09:26,057: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2024-12-09 23:09:26,058: INFO: main: >>>>>> stage Data transformation Stage started <<<<<<]
+[2024-12-09 23:09:26,060: INFO: main: >>>>>> stage Data transformation Stage completed <<<<<<
+
+x==========x]
