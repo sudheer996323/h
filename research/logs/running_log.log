@@ -1,0 +1,87 @@
+[2024-12-09 13:38:02,121: ERROR: common: File not found: config\config.yaml]
+[2024-12-09 13:39:03,705: ERROR: common: File not found: config\config.yaml]
+[2024-12-09 13:41:50,921: ERROR: common: File not found: config\config.yaml]
+[2024-12-09 13:42:12,648: ERROR: common: File not found: config\config.yaml]
+[2024-12-09 13:43:23,244: ERROR: common: File not found: config\config.yaml]
+[2024-12-09 13:46:03,339: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 13:46:03,347: ERROR: common: File not found: params.yaml]
+[2024-12-09 13:47:12,471: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 13:47:12,477: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 13:47:12,479: ERROR: common: YAML file at C:\Users\Sudheer\h\schema.yaml is empty.]
+[2024-12-09 13:47:12,481: ERROR: common: An unexpected error occurred while reading C:\Users\Sudheer\h\schema.yaml]
+Traceback (most recent call last):
+  File "c:\users\sudheer\h\src\mlProject\utils\common.py", line 37, in read_yaml
+    raise ValueError(f"The YAML file at {path_to_yaml} is empty.")
+ValueError: The YAML file at C:\Users\Sudheer\h\schema.yaml is empty.
+[2024-12-09 13:47:51,841: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 13:47:51,843: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 13:47:51,850: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 13:47:51,852: INFO: common: created directory at: artifacts]
+[2024-12-09 13:47:51,854: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-09 13:47:53,451: INFO: 2168371436: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 449C:154A64:45FCF4:4CC851:67574967
+Accept-Ranges: bytes
+Date: Mon, 09 Dec 2024 19:47:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iah17227-IAH
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1733773672.132318,VS0,VE147
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0b6dea88852ec8de6567281ae446c74e84ffa94b
+Expires: Mon, 09 Dec 2024 19:52:52 GMT
+Source-Age: 0
+
+]
+[2024-12-09 17:26:37,784: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 17:26:37,810: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 17:26:37,823: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 17:26:37,833: INFO: common: created directory at: artifacts]
+[2024-12-09 17:26:37,837: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 17:34:07,502: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 17:34:07,511: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 17:34:07,514: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 17:34:07,516: INFO: common: created directory at: artifacts]
+[2024-12-09 17:34:07,517: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 17:36:44,619: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 17:36:44,622: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 17:36:44,625: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 17:36:44,627: INFO: common: created directory at: artifacts]
+[2024-12-09 17:36:44,630: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 17:39:31,449: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 17:39:31,453: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 17:39:31,458: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 17:39:31,460: INFO: common: created directory at: artifacts]
+[2024-12-09 17:39:31,462: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 17:44:39,783: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 17:44:39,794: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 17:44:39,804: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 17:44:39,823: INFO: common: created directory at: artifacts]
+[2024-12-09 17:44:39,829: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 17:52:11,684: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 17:52:11,686: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 17:52:11,693: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 17:52:11,696: INFO: common: created directory at: artifacts]
+[2024-12-09 17:52:11,698: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 17:54:00,625: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 17:54:00,630: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 17:54:00,636: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 17:54:00,638: INFO: common: created directory at: artifacts]
+[2024-12-09 17:54:00,640: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 17:54:29,026: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 17:54:29,030: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 17:54:29,040: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 17:54:29,043: INFO: common: created directory at: artifacts]
+[2024-12-09 17:54:29,046: INFO: common: created directory at: artifacts/data_validation]

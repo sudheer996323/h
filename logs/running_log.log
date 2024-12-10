@@ -1,1 +1,152 @@
 [2024-12-08 17:36:21,295: INFO: main: This is basic mlproject]
+[2024-12-09 15:22:37,752: INFO: main: This is basic mlproject]
+[2024-12-09 15:23:57,680: INFO: stage_01_data_ingestion_pipeline: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-09 15:23:57,682: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 15:23:57,684: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 15:23:57,687: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 15:23:57,689: INFO: common: created directory at: artifacts]
+[2024-12-09 15:23:57,690: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-09 15:23:58,386: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 12B0:1D89BA:446639:4A71C3:67575FEA
+Accept-Ranges: bytes
+Date: Mon, 09 Dec 2024 21:23:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iah17255-IAH
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1733779437.087949,VS0,VE147
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 543eb9f320a5cc5531e8430ef4db203d33a3ae90
+Expires: Mon, 09 Dec 2024 21:28:57 GMT
+Source-Age: 0
+
+]
+[2024-12-09 15:23:58,405: INFO: stage_01_data_ingestion_pipeline: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-09 15:24:39,270: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-09 15:24:39,272: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 15:24:39,274: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 15:24:39,277: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 15:24:39,278: INFO: common: created directory at: artifacts]
+[2024-12-09 15:24:39,279: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-09 15:24:39,279: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-09 15:24:39,283: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-09 20:48:00,340: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-09 20:48:00,343: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 20:48:00,356: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 20:48:00,361: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 20:48:00,364: INFO: common: created directory at: artifacts]
+[2024-12-09 20:48:00,365: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-09 20:48:01,105: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CA21:22E01F:18CF79:1BEC09:6757ABDE
+Accept-Ranges: bytes
+Date: Tue, 10 Dec 2024 02:47:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iah17282-IAH
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1733798879.269062,VS0,VE176
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 71ca1b6bc5ca6abdd4bb315a61f931ce34ae90bf
+Expires: Tue, 10 Dec 2024 02:52:59 GMT
+Source-Age: 0
+
+]
+[2024-12-09 20:48:01,170: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-09 20:48:01,171: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-09 20:48:01,175: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 20:48:01,176: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 20:48:01,180: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 20:48:01,181: INFO: common: created directory at: artifacts]
+[2024-12-09 20:48:01,181: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    obj.main()
+  File "c:\users\sudheer\h\src\mlProject\pipeline\stage_02_data_validation.py", line 12, in main
+    data_validation_config=config.get_data_validation_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'
+[2024-12-09 20:57:47,996: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-09 20:57:48,004: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 20:57:48,008: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 20:57:48,014: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 20:57:48,017: INFO: common: created directory at: artifacts]
+[2024-12-09 20:57:48,018: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-09 20:57:48,019: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-09 20:57:48,036: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-09 20:57:48,039: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-09 20:57:48,045: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 20:57:48,054: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 20:57:48,061: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 20:57:48,063: INFO: common: created directory at: artifacts]
+[2024-12-09 20:57:48,064: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 20:57:48,072: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\Sudheer\\h\\research\\artifacts\\data_ingestion\\winequality-red.csv']
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    obj.main()
+  File "c:\users\sudheer\h\src\mlProject\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation.validate_all_columns()
+  File "c:\users\sudheer\h\src\mlProject\components\data_validation.py", line 29, in validate_all_columns
+    raise e
+  File "c:\users\sudheer\h\src\mlProject\components\data_validation.py", line 14, in validate_all_columns
+    data=pd.read_csv(self.config.unzip_dir)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "C:\Users\Sudheer\anaconda3\envs\prep\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Sudheer\\h\\research\\artifacts\\data_ingestion\\winequality-red.csv'
+[2024-12-09 21:00:58,902: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-09 21:00:58,904: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 21:00:58,907: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 21:00:58,925: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 21:00:58,927: INFO: common: created directory at: artifacts]
+[2024-12-09 21:00:58,929: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-09 21:00:58,929: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-12-09 21:00:58,940: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-09 21:00:58,941: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-12-09 21:00:58,943: INFO: common: YAML file: C:\Users\Sudheer\h\config\config.yaml loaded successfully.]
+[2024-12-09 21:00:58,944: INFO: common: YAML file: C:\Users\Sudheer\h\params.yaml loaded successfully.]
+[2024-12-09 21:00:58,947: INFO: common: YAML file: C:\Users\Sudheer\h\schema.yaml loaded successfully.]
+[2024-12-09 21:00:58,949: INFO: common: created directory at: artifacts]
+[2024-12-09 21:00:58,950: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-09 21:00:58,969: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
